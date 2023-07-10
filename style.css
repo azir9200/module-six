@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+
+
+}
+
+.banner-picture {
+  height: 150px;
+  width: 150px;
+
+}
+
+.header-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: right;
+
+}
+
+.title-description {
+  padding-left: 20px;
+  margin-left: 50%px;
+  text-align: right;
+}
+
+.for-button {
+  text-align: right;
+  color: white;
+}
+
+.button {
+  background-color: chocolate;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-section {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-position: center;
+  background-color: bisque;
+}
+
+.box-picture {
+  background-color: aliceblue;
+}
+
+.main-picture {
+  height: 400px;
+  width: 300px;
+
+}
+
+.sub-main {
+  text-align: center;
+  padding-right: 40px;
+}
+
+.main-paragraph {
+  text-align: center;
+}
+
+.main-description {
+  width: 416px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+/*  3rd icon section styling */
+
+.myplan {
+  text-align: center;
+}
+
+.submain {
+
+  display: flex;
+  background-position: center;
+  border: 2px solid black;
+  justify-content: space-around;
+  text-align: center;
+  border: none;
+
+}
+
+.icon-header {
+  text-align: center;
+  border: none;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  border: none;
+}
+
+.positive {
+  height: 40vh;
+  background-position: center;
+  background-image: url(images/watch.png), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+  background-repeat: no-repeat;
+  background-size: relative;
+  align-items: center;
+  text-align: center;
+
+
+
+}
+
+.positive-head {
+  text-align: left;
+  font-size: 30px;
+  padding-left: 30px;
+  margin-top: 30px;
+  position: relative;
+  color: white;
+}
+
+.btn-positive {
+  background-color: white;
+  color: chocolate;
+  border-radius: 5px;
+  font-size: 30px;
+  position: absolute;
+}
+
+.footer-section {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  border: none;
+
+}
+
+.footer-part,
+.email,
+.phone {
+  text-align: left;
+  color: white;
+}
+
+.subs-head {
+  color: white;
+
+  .main-picture {
+    color: chocolate;
+    background-color: chocolate;
+  }
+}
